@@ -1,0 +1,17 @@
+server:
+  port: 10000
+
+spring:
+  application:
+    name: singtome
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://singtome-rds.clhbzhbriepu.ap-northeast-2.rds.amazonaws.com:3306/singtome
+    username: admin
+    password: xQHtC1qg23wr7x69px4o
+  jpa:
+    hibernate:
+      ddlAuto: none
+
+
+
