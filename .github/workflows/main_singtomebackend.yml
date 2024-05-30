@@ -1,3 +1,6 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
 name: Build and deploy JAR app to Azure Web App - SingToMeBackend
 
 on:
@@ -17,9 +20,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: '17'
-
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
 
       - name: Build with Gradle
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
@@ -53,4 +53,4 @@ jobs:
           app-name: 'SingToMeBackend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8FA589AF8679434986FA5D5B2065501C }}
-          package: 'build/libs/*.jar'
+          package: '/home/runner/work/BackEnd/BackEnd/build/libs/blog-0.0.1-SNAPSHOT.jar'
