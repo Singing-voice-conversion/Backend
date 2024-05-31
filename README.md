@@ -40,8 +40,7 @@ The Sing-To-Me website is a platform where you can create new songs by overlayin
 - Providing a Top100 list of popular songs
 
 ## **3. Swagger Page**
-
-Screen planning was carried out using Figma to design the overall UI/UX and define the layout and functionality of each page. The main screens and planning intentions are as follows:
+<img width="1451" alt="Screenshot 2024-05-31 at 4 45 07 PM" src="https://github.com/Singing-voice-conversion/Backend/assets/24919880/2c70592d-79f7-40f4-b10b-a22270d7b9b7">
 
 - **Login Page**: Controls user authentication and access.
 - **Main Page**: Introduces main functions and provides access links.
