@@ -42,33 +42,23 @@ The Sing-To-Me website is a platform where you can create new songs by overlayin
 ## **3. Swagger Page**
 <img width="1451" alt="Screenshot 2024-05-31 at 4 45 07 PM" src="https://github.com/Singing-voice-conversion/Backend/assets/24919880/2c70592d-79f7-40f4-b10b-a22270d7b9b7">
 
-- **Login Page**: Controls user authentication and access.
-- **Main Page**: Introduces main functions and provides access links.
-    - Platform description and usage guide (center banner)
-    - List of songs synthesized by the user (small banner)
-    - List of songs liked by the user (small banner)
-    - List of voices trained by the user (small banner)
-- **Top100 Page**: Provides a list of popular songs and playback functionality.
-- **Synthesis Page**: Provides an interface for song synthesis inference.
-- **Training Page**: Provides an interface for uploading voice files and training models.
-- **My Synthesized Songs Page**: Provides a list of songs synthesized by the user.
-- **My Liked Songs Page**: Provides a list of songs liked by the user.
-- **My Trained Voices Page**: Provides a list of voices trained by the user.
+- **Voice API*: Controlls every request against Voice List(Create, Read, Modify, Delete)
+- **AI Cover Song API*: Controlls every request against Voice List(Create, Read, Modify, Delete) and Checking if the RVC model is running or not.
+
 
 ## **4. Screen Composition**
 
 ### **4.1 Folder Structure**
+<img width="298" alt="Screenshot 2024-05-31 at 5 10 07 PM" src="https://github.com/Singing-voice-conversion/Backend/assets/24919880/a052b4c2-1a22-47dd-8cd1-6b34cc3bb7e1">
 
 The project's folder structure is as follows:
-
-![1](https://github.com/Singing-voice-conversion/Front/assets/124601567/5d3dd759-980a-4b01-b77b-6432db28648d)  
-![2](https://github.com/Singing-voice-conversion/Front/assets/124601567/0b14dacb-a13b-4cee-b9a9-f7bef8df87f5)
-
+According to MVC pattern of Spring boot. We folderized every contents in to Model, Controllers and Service.
+Each domain has own Model Contollers and Services.
 
 ## **5. Used Languages, Libraries, Frameworks, Tools**
 
 The languages, libraries, frameworks, and tools used in the project are as follows:
 
-- **Languages**: HTML, CSS, JavaScript
-- **Libraries and Frameworks**: Vue.js, Vue Router, JQuery
-- **Tools**: VScode
+- **Languages**: Java, Spring, SQL 
+- **Libraries and Frameworks**: 
+- **Tools**: Intellij
