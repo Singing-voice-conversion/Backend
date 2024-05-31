@@ -4,7 +4,19 @@
 
 *introducing the Back-end project used in the SINGTOME project.*
 
-[![Language](https://img.shields.io/badge/Language-HTML%20%7C%20CSS%20%7C%20JavaScript-blueviolet)](#) [![Framework](https://img.shields.io/badge/Framework-Vue.js-green)](#) [![Tools](https://img.shields.io/badge/Tools-VScode-informational)](#)
+*introducing the AI models used in the SINGTOME project.*
+
+[![Static Badge](https://img.shields.io/badge/language-english-red)](./README.md) [![Static Badge](https://img.shields.io/badge/language-korean-blue)](./README-KR.md) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSinging-voice-conversion%2Fsingtome-model&count_bg=%23E3E30F&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+</div>
+
+<br>
+
+Hello, and thank you for visiting. This GitHub repository contains the implementation code for the model used in the singtome project. If you're interested in learning more about the singtome project, please refer to [this link](#). The project utilizes the RVC (Retrieval Voice Conversion) model to implement vocal transformation features in music. You can find the core implementation of the model [here](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI). For more detailed information on how to use the RVC model and its principles, please consult the linked RVC repository.
+
+<br>
+
+<div align="center">
 
 </div>
 
@@ -16,11 +28,9 @@
 5. [Used Languages, Libraries, Frameworks, Tools](#5-used-languages-libraries-frameworks-tools)
 
 ## 1. Members
-
-| Name          | Contributions                                                   |
-|---------------|-----------------------------------------------------------------|
-| Chung HeeChan | Restful API with Spring Boot and AWS RDS|
-               
+| Profile | Name | Role |
+| :---: | :---: | :---: |
+| <a href="https://github.com/anselmo228"><img src="https://avatars.githubusercontent.com/u/24919880?v=4" height="120px"></a> | Heechan Chung <br> **anselmo**| Restful API with Spring Boot and AWS RDS|
 
 ## **2. Introduction**
 
