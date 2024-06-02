@@ -20,7 +20,7 @@ Hello, and thank you for visiting. This GitHub repository contains the implement
 ## Contents
 1. [Members](#1-members)
 2. [Introduction](#2-introduction)
-3. [Swagger Page (Figma)](#3-screen-planning-figma)
+3. [Swagger Page](#3-screen-planning-figma)
 4. [Screen Composition](#4-screen-composition)
 5. [Used Languages, Libraries, Frameworks, Tools](#5-used-languages-libraries-frameworks-tools)
 
