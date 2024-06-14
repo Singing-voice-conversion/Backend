@@ -22,8 +22,8 @@ Hello, and thank you for visiting. This GitHub repository contains the implement
 2. [Introduction](#2-introduction)
 3. [Swagger Page](#3-swagger-page)
 4. [Screen Composition](#4-screen-composition)
-5. [Used Languages, Libraries, Frameworks, Tools](#5-used-languages-libraries-frameworks-tools)
-6. [API Documentation](#6-api-documentation)
+5. [API Documentation](#6-api-documentation)
+6. [Used Languages, Libraries, Frameworks, Tools](#5-used-languages-libraries-frameworks-tools)
 
 ## 1. Members
 | Profile | Name | Role |
@@ -55,15 +55,7 @@ The project's folder structure is as follows:
 According to MVC pattern of Spring Boot. We folderized every contents into Model, Controllers, and Service.
 Each domain has its own Model, Controllers, and Services.
 
-## **5. Used Languages, Libraries, Frameworks, Tools**
-
-| **Category** | **Details** |
-|:---:|:---:|
-| **Languages** | Java, SQL |
-| **Libraries and Frameworks** | Spring Boot |
-| **Tools** | Intellij |
-
-## **6. API Documentation**
+## **5. API Documentation**
 
 This section details the API endpoints available for interacting with the Sing-To-Me backend services. The APIs allow users to manage and interact with voice and AI cover song functionalities.
 
@@ -90,3 +82,12 @@ This section details the API endpoints available for interacting with the Sing-T
 | **Endpoint** | **Method** | **Description** |
 |:---:|:---:|:---:|
 | `/login` | `POST` | Authenticates a user with their email and password. |
+
+
+## **6. Used Languages, Libraries, Frameworks, Tools**
+
+| **Category** | **Details** |
+|:---:|:---:|
+| **Languages** | Java, SQL |
+| **Libraries and Frameworks** | Spring Boot |
+| **Tools** | Intellij |
